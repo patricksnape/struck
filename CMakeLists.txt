@@ -26,5 +26,9 @@ file(GLOB_RECURSE HEADERS RELATIVE ${PROJECT_SOURCE_DIR} src/*.h)
 add_executable(struck ${HEADERS} ${SRC})
 
 target_link_libraries(struck
-    ${OpenCV_LIBS}
+    opencv_core
+    opencv_imgcodecs
+    opencv_videoio
+    opencv_highgui
+    opencv_imgproc
 )

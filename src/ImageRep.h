@@ -30,7 +30,7 @@
 
 #include "Rect.h"
 
-#include <opencv/cv.h>
+#include "opencv2/opencv.hpp"
 #include <vector>
 
 #include <Eigen/Core>
